@@ -32,11 +32,17 @@ int main(){
 	return 0;
 }
 '''
+
+'''
 Hope the syntax highlighting works in C above.
 
 Hey | There| Wassup
 ---	|---	|---
 1	|lasdk	|lasdkjf
+
+|Hey|There|Wassup|
+|---|---|---|
+|1|lasd|aksd|
 
 > Strike when the iron is hot.
 
@@ -45,6 +51,6 @@ we can create horizontal line using 3 - or * or _
 ---
 
 Things to still work in markdown
-* seo ???
+* Seo ???
 * how to add tags to page???
 * how to make the post unpublished???
