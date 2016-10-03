@@ -1,0 +1,54 @@
+/*https://www.google.com/design/spec/style/color.html#color-color-palette
+http://www.w3schools.com/html/default.asp
+http://www.w3schools.com/css/css3_gradients.asp
+http://stackoverflow.com/questions/1575141/make-div-100-height-of-browser-window
+*/h1{
+	font-size: 10vh;
+	color: white;
+	/*font-family: 'Merienda', cursive;*/
+	/*font-family: 'Pacifico', cursive;*/
+	/*font-family: 'Gloria Hallelujah', cursive;*/
+	/*font-family: 'Kaushan Script', cursive;*/
+	font-family: '', cursive;
+}
+
+/*#name{
+	background-color: #1DE9B6;
+	padding-right: 20px;
+	border-radius: 15px;
+}
+*/
+#grad {
+  background: #90caf9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(144,202,209,0.7),rgba(66,165,245,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(144,202,209,0.7),rgba(66,165,245,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(144,202,209,0.7),rgba(66,165,245,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(144,202,209,0.7), rgba(66,165,245,1)); /*Standard*/
+}
+.glyph{
+	color: black;
+}
+
+#top{
+	margin-top: 100px;
+}
+#middle{
+	font-size: 3vh;
+	font-family: 'Pacifico', cursive;
+}
+#bottom{
+	position: fixed;
+	bottom: 1vh;
+	margin: 0 auto;
+	width: 100%;
+	background-image: url(footer.gif);
+	
+/*	margin-top: 30vh;
+*/}
+/*#footer {
+    background-image: url("/footer.png");
+    background-position: center bottom;
+*//*    background-repeat: repeat-x;
+    background-size: contain;
+    padding-bottom: 10px;
+}*/
